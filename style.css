@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+
+.container {
+    width: 75%;
+    margin: 25px auto;
+    padding: 2.5rem 3.5rem;
+    background-color: white;
+    box-shadow: 3px 3px 12px 2px rgba(0,0,0,0.3); 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem 3rem;
+
+  }
+
+.container img {
+    box-shadow: 3px 3px 8px 1px rgba(0,0,0,0.5); 
+    width: 25%;
+}
+
+.container img:hover {
+    transform: scale(1.16);
+    transition: all 0.45s ease;
+}
